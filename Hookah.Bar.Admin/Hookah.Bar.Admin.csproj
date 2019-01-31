@@ -8,19 +8,19 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{278B5751-C8B4-4213-AA40-C975434792AC}</ProjectGuid>
+    <ProjectGuid>{D71922F5-B9E0-4D3E-83C0-B4B3946D8DC6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hookah.Bar</RootNamespace>
-    <AssemblyName>Hookah.Bar</AssemblyName>
+    <RootNamespace>Hookah.Bar.Admin</RootNamespace>
+    <AssemblyName>Hookah.Bar.Admin</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
@@ -137,87 +137,13 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="css\assets.min192b.css" />
-    <Content Include="css\background.html" />
-    <Content Include="css\bigplay.html" />
-    <Content Include="css\bigplay.svg\index.html" />
-    <Content Include="css\controls.html" />
-    <Content Include="css\controls.svg\index.html" />
-    <Content Include="css\jumpforward.html" />
-    <Content Include="css\loading.html" />
-    <Content Include="css\skipback.html" />
-    <Content Include="css\stylesd6c9.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\fontawesome-webfont3e6e-2.html" />
-    <Content Include="fonts\fontawesome-webfont3e6e.html" />
-    <Content Include="fonts\fontawesome-webfont3e6e.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="mt-demo\74300\74314\mt-content\assets\stylesd6c9.css" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\favicon29e4.ico" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-about-icon-1.png" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-about-icon-2.png" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-about-icon-3.png" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-about-icon-4.png" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-blog-img-1.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-blog-img-2.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-blog-img-4.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-blog-img-6.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-blog-img-8.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-content-bg-1.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-content-bg-2.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-content-bg-3.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-content-bg-4.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-content-bg-5.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-events-img-1.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-events-img-2.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-events-img-3.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-events-img-4.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-1.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-10.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-10bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-11.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-11bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-12.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-12bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-1bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-2.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-2bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-3.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-3bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-4.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-4bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-5.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-5bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-6.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-6bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-7bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-8.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-8bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-9.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-gallery-img-9bg.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-home-img-1.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-home-img-2.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-home-img-3.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-home-img-4.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-1.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-2.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-3.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-4.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-5.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-6.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-7.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-hookah-_bar-img-8.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-menu-img-1.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-menu-img-2.jpg" />
-    <Content Include="mt-demo\74300\74314\mt-content\uploads\2018\11\mt-1616-menu-img-3.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="fonts\fontawesome-webfont3e6e.eot" />
-    <Content Include="fonts\fontawesome-webfont3e6e.woff" />
-    <Content Include="fonts\fontawesome-webfontd41d.eot" />
-    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <None Include="Scripts\jquery-3.3.1-vsdoc.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -276,11 +202,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49844</DevelopmentServerPort>
+          <DevelopmentServerPort>51293</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49845/</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost:49845/</IISAppRootUrl>
+          <IISUrl>http://localhost:51293/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
